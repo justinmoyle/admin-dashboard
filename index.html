@@ -9,7 +9,7 @@
   <body>
     <div class="sidebar">
       <div class="dashboard">
-        <img src="/icons/view-dashboard.svg" alt="" />
+        <img src="/icons/view-dashboard.svg" class="dash-icon" />
         <h1>Dashboard</h1>
       </div>
       <div class="nav">
@@ -17,7 +17,7 @@
           <img src="/icons/home.svg" class="nav-icon">
           <h2>Home</h1>
         </div>
-        <div class="profile nav-selection">
+        <div class=" nav-selection">
           <img src="/icons/card-account-details.svg" class="nav-icon">
           <h2>Profile</h2>
         </div>
@@ -54,10 +54,36 @@
       </div>
     </div>
     <div class="header">
-      <div class="search-bar"><p>header</p></div>
-      <div class="header-nav"></div>
-      <div class="user-info"></div>
-      <div class="event-buttons"></div>
+      <div class="topNav">
+        <div class="search">
+          <img src="icons/magnify.svg" class="head-icon">
+          <input type="text" name="search" autocomplete="off"/>
+        </div>
+        <div class="account">
+          <div class="head-icon">
+            <img src="icons/bell-ring-outline.svg" class="head-icon">
+          </div>
+          <div class="avatar">
+            <img src="assests/profile1.png" class="pro-icon-mini">
+          </div>
+          <h2 class="name">Justin Moyle</h2>
+        </div>
+      </div>
+      <div class="botNav">
+        <div class="profile">
+          <div class="bg-avatar">
+            <img src="assests/profile1.png" class="pro-icon">
+          </div>
+          <div class="profile-name">
+            <p class="greeting">Hi there,</p>
+            <h2 class="name"> Justin Moyle (@justinmoyle)</h2>          </div>
+        </div>
+        <div class="buttons">
+          <button class="btn">New</button>
+          <button class="btn">Upload</button>
+          <button class="btn">Share</button>
+        </div>
+      </div>
     </div>
     <main class="main">
       <div class="projects content-title">
